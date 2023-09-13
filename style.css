@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.bg-blue{
+    background-color: #313A5F;
+}
+
+.container{
+    width: 1120px;
+    margin: auto;
+}
+.menu{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    padding-top: 46px;
+}
+.menu__link{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+/*     Main_block      */
+
+
+.main-block{
+    display: flex;
+    padding-top: 95px;
+    padding-bottom: 205px;
+    color: white;
+}
+
+.main-block__info__title{
+    font-size: 74px;
+    margin-bottom: 40px;
+    font-weight: 500;
+}
+
+.main-block__info__subtitle{
+    width: 440px;
+    font-size: 32px;
+    text-align: justify;
+}
+
+.main-block__img{
+    width: 475px;
+    height: 376px;
+}
+
+/*     Portfolio_block      */
+
+.portfolio{
+    margin-top: 150px;
+}
+
+.portfolio__title{
+    font-size: 74px;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+
+.portfolio__template{
+    display: flex;
+    align-items: center;
+    margin-bottom: 89px;
+}
+
+.portfolio__template__title{
+    font-size: 32px;
+    width: 570px;
+    margin-right: 407px;
+}
+
+.portfolio__template__arrow{
+    display: flex;
+    gap: 24px;
+}
+.portfolio__template__arrow__img{
+    width: 55px;
+    height: 25px;
+}
+
+.portfolio__info{
+    display: flex;
+}
+
+.portfolio__info__img{
+    width: 570px;
+    height: 414px;
+    margin-right: 75px;
+}
+.portfolio__info__skills__skill{
+    font-size: 32px;
+    border-bottom: 2px solid black;
+    margin-bottom: 35px;
+}
+
+.portfolio__info__skills__btn{
+    margin-top: 40px;
+    padding: 20px 50px;
+    border-radius: 44px;
+    background-color: #313A5F;
+    color: white;
+    font-size: 24px;
+    border: none;
+    transition: .3s;
+}
+
+.portfolio__info__skills__btn:hover{
+    background-color: #414C79;
+}
