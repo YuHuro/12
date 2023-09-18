@@ -1,17 +1,12 @@
 *{
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
 }
-
-body{
-    font-family: 'Inter', sans-serif;
-}
-
 .bg-blue{
     background-color: #313A5F;
 }
-
 .container{
     width: 1120px;
     margin: auto;
@@ -27,58 +22,47 @@ body{
     text-decoration: none;
     font-size: 24px;
 }
-
-/*     Main_block      */
-
-
+/*MAIN-BLOCK*/
 .main-block{
     display: flex;
     padding-top: 95px;
     padding-bottom: 205px;
     color: white;
 }
-
 .main-block__info__title{
     font-size: 74px;
     margin-bottom: 40px;
     font-weight: 500;
 }
-
 .main-block__info__subtitle{
     width: 440px;
     font-size: 32px;
     text-align: justify;
 }
-
 .main-block__img{
     width: 475px;
     height: 376px;
 }
-
-/*     Portfolio_block      */
-
+/*PORTFOLIO-BLOCK*/
 .portfolio{
     margin-top: 150px;
+    margin-bottom: 150px;
 }
-
 .portfolio__title{
     font-size: 74px;
     font-weight: 500;
     margin-bottom: 100px;
 }
-
 .portfolio__template{
     display: flex;
     align-items: center;
     margin-bottom: 89px;
 }
-
 .portfolio__template__title{
     font-size: 32px;
     width: 570px;
     margin-right: 407px;
 }
-
 .portfolio__template__arrow{
     display: flex;
     gap: 24px;
@@ -87,23 +71,20 @@ body{
     width: 55px;
     height: 25px;
 }
-
 .portfolio__info{
     display: flex;
 }
-
-.portfolio__info__img{
+.portfolio__img{
     width: 570px;
     height: 414px;
     margin-right: 75px;
 }
-.portfolio__info__skills__skill{
+.portfolio__skill{
     font-size: 32px;
     border-bottom: 2px solid black;
     margin-bottom: 35px;
 }
-
-.portfolio__info__skills__btn{
+.portfolio__btn{
     margin-top: 40px;
     padding: 20px 50px;
     border-radius: 44px;
@@ -112,8 +93,89 @@ body{
     font-size: 24px;
     border: none;
     transition: .3s;
+    cursor: pointer;
 }
-
-.portfolio__info__skills__btn:hover{
+.portfolio__btn:hover{
     background-color: #414C79;
+}
+/*ABOUT-ME_BLOCK*/
+.about-me{
+    display: flex;
+    gap: 95px;
+    color: white;
+    padding-top: 54px;
+    padding-bottom: 55px;
+}
+.about-me__title{
+    font-size: 74px;
+    font-weight: 500;
+}
+.about-me__text{
+    font-size: 32px;
+    text-align: justify;
+    margin-top: 100px;
+}
+.about-me__img{
+    width: 475px;
+    height: 536px;
+    margin-top: 55px;
+}
+/*FORM-BLOCK*/
+.form{
+    padding: 150px;
+}
+.form__title{
+    font-size: 74px;
+    font-weight: 500;
+    margin-bottom: 100px;
+}
+.form__text{
+    font-size: 32px;
+    margin-bottom: 50px;
+}
+.form__input{
+    width: 820px;
+    padding: 20px 0 20px 40px;
+    border: 2px solid #313A5F;
+    border-radius: 58px;
+    margin-bottom: 35px;
+}
+.form__button{
+    width: 820px;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 58px;
+    background-color: #313A5F;
+    font-size: 24px;
+    color: white;
+    align-items: center;
+    transition: all .3s;
+    cursor: pointer;
+}
+.form__button:hover{
+    background-color: #414C79;
+}
+.form__fill{
+    justify-content: center;
+}
+.form__fill p{
+    margin-bottom: 10px;
+}
+.textCenter{
+    text-align: center;
+}
+.form__contactUs{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 32px;
+}
+.contactList{
+    display: flex;
+    justify-content: space-between;
+    margin: 68px;
+}
+.contactList__contacts{
+    font-size: 32px;
+    text-decoration: none;
+    color: black;
 }
