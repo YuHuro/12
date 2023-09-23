@@ -29,12 +29,12 @@
     padding-bottom: 205px;
     color: white;
 }
-.main-block__info__title{
+.main-block__myName{
     font-size: 74px;
     margin-bottom: 40px;
     font-weight: 500;
 }
-.main-block__info__subtitle{
+.main-block__subtitle{
     width: 440px;
     font-size: 32px;
     text-align: justify;
@@ -58,7 +58,7 @@
     align-items: center;
     margin-bottom: 89px;
 }
-.portfolio__template__title{
+.portfolio__option{
     font-size: 32px;
     width: 570px;
     margin-right: 407px;
@@ -67,7 +67,7 @@
     display: flex;
     gap: 24px;
 }
-.portfolio__template__arrow__img{
+.portfolio__arrow__img{
     width: 55px;
     height: 25px;
 }

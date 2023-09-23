@@ -8,14 +8,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Portfolio</title>
+    <script defer src="JavaS.js"></script>
 </head>
 <body>
     <header class="bg-blue">
         <div class="container">
             <ul class="menu">
-                <li><a class="menu__link" href="">Портфолио</a></li>
-                <li><a class="menu__link" href="">Обо мне</a></li>
-                <li><a class="menu__link" href="">Контакты</a></li>
+                <li><a class="menu__link" href="#portfolio">Портфолио</a></li>
+                <li><a class="menu__link" href="#about-me">Обо мне</a></li>
+                <li><a class="menu__link" href="#form">Контакты</a></li>
             </ul>
         </div>
     </header>
@@ -23,8 +24,8 @@
         <div class="container">
             <div class="main-block">
                 <div class="main-block__info">
-                    <h1 class="main-block__info__title">Меня зовут Магомед</h1>
-                    <p class="main-block__info__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <h1 class="main-block__myName">Меня зовут Магомед</h1>
+                    <p class="main-block__subtitle">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
                 <img class="main-block__img" src="img/main-block-img.png" alt="img">
             </div>
@@ -32,13 +33,13 @@
     </section>
     <section>
         <div class="container">
-            <div class="portfolio">
+            <div id="portfolio" class="portfolio">
                 <h1 class="portfolio__title">Портфолио</h1>
                 <div class="portfolio__template">
-                    <p class="portfolio__template__title">AI DIGITAL CORPORATE PRESENTATION TEMPLATE</p>
+                    <p class="portfolio__option">AI DIGITAL CORPORATE PRESENTATION TEMPLATE</p>
                     <div class="portfolio__template__arrow">
-                        <img class="portfolio__template__arrow__img" src="img/VectorLeft.png" alt="">
-                        <img class="portfolio__template__arrow__img" src="img/VectorRight.png" alt="">
+                        <img class="portfolio__arrow__img" src="img/VectorLeft.png" alt="">
+                        <img class="portfolio__arrow__img" src="img/VectorRight.png" alt="">
                     </div>
                 </div>
                 <div class="portfolio__info">
@@ -56,7 +57,7 @@
     </section>
     <section class="bg-blue">
         <div class="container">
-            <div class="about-me">
+            <div id="about-me" class="about-me">
                 <div class="about-me__info">
                     <h1 class="about-me__title">Обо мне</h1>
                     <p class="about-me__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
@@ -68,22 +69,22 @@
     <section>
         <div class="container">
             <div class="form">
-                <h1 class="form__title textCenter">Обсудим проект?</h1>
+                <h1 id="form" class="form__title textCenter">Обсудим проект?</h1>
                 <p class="form__text textCenter">Заполните форму обратной связи</p>
                 <form class="form__fill" action="">
                     <div class="form__yourName">
                         <p class="form__yourName__name">Ваше имя</p>
-                        <input class="form__input" type="text" placeholder="Магомед">
+                        <input id="name-input" class="form__input" type="text" placeholder="Магомед">
                     </div>
                     <div class="form__yourEmail">
                         <p class="form__yourEmail__email">Ваше email</p>
-                        <input class="form__input" type="email" placeholder="mail@example.com">
+                        <input id="mail-input" class="form__input" type="email" required placeholder="mail@example.com">
                     </div>
                     <div class="form__yourNumber">
                         <p class="form__yourNumber__number">Ваш телефон</p>
-                        <input class="form__input" type="text" placeholder="+7928 777 65 55">
+                        <input id="num-input" class="form__input" type="text" placeholder="+7928 777 65 55">
                     </div>
-                    <button class="form__button">Отправить</button>
+                    <button id="confirm-form" class="form__button">Отправить</button>
                 </form>
                 <p class="form__contactUs">Или свяжитесь со мной удобным способом связи, расположенным ниже</p>
             </div>
