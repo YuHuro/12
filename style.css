@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
 }
+html{
+    scroll-behavior: smooth;
+}
 .bg-blue{
     background-color: #313A5F;
 }
@@ -161,20 +164,20 @@
 .form__fill p{
     margin-bottom: 10px;
 }
-.textCenter{
+.text-center{
     text-align: center;
 }
-.form__contactUs{
+.form__contact-us{
     margin-top: 50px;
     text-align: center;
     font-size: 32px;
 }
-.contactList{
+.contact-list{
     display: flex;
     justify-content: space-between;
     margin: 68px;
 }
-.contactList__contacts{
+.contact-list__contacts{
     font-size: 32px;
     text-decoration: none;
     color: black;
